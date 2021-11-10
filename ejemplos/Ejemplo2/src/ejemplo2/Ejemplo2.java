@@ -10,6 +10,8 @@
  */
 package ejemplo2;
 
+import java.util.Scanner;
+
 /**
  *
  * @author reroes
@@ -21,14 +23,19 @@ public class Ejemplo2 {
      */
     public static void main(String[] args) {
         // Condicionale compuestos
-        double promedio = 7.4;
-
-        if (promedio >= 7.5) {
+        
+        
+        Scanner entrada= new Scanner(System.in);
+        double Promedio;
+        System.out.println("Ingrese promedio");
+        
+        Promedio=entrada.nextDouble();
+        if (Promedio >= 7.5) {
             System.out.printf("Estudiante aprobado con un "
-                    + "promedio: %.2f\n", promedio);
+                    + "promedio: %.2f\n", Promedio);
         }else{
             System.out.printf("Estudiante reprobado con un "
-                    + "promedio: %.2f\n", promedio);
+                    + "promedio: %.2f\n", Promedio);
         }
     }
     

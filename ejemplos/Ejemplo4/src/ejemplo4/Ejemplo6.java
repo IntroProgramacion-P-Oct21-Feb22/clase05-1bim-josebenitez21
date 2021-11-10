@@ -30,8 +30,8 @@ public class Ejemplo6 {
         // caracter de la cadena
         // Si el valor de ciudad es 
         // "Loja" se obtiene "L"
-
-        if (inicial.equals("L")) {
+       
+        if (inicial.equals("I")|| (inicial.equals("U") )) {
             System.out.printf("%s\n", "acceso correcto");
         } else {
             System.out.printf("%s\n", "acceso incorrecto");
